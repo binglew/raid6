@@ -23,8 +23,9 @@ step 1, Config .\raid6_lib\raid6_config.hpp as your requirement.
   
 To build row parity and diagonal parity: 
 
-        #include "raid6.hpp"
-        using namespace raid6;
+    #include "raid6.hpp"
+    using namespace raid6;
+    ...
         CRaid6 R6; 
         R6.recover( pointerArrayToTheBuffersOnEachDisk, numBytesOfEachBuffer, numDisk, 
         	eRowIdx, eDiaIdx);
