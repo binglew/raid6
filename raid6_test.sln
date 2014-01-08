@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raid6_test", "raid6_test\raid6_test.vcxproj", "{BF0B8EBF-C03B-4FD1-8C2B-3C591BB0A4DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A1E3B81A-A3E4-405D-BB1C-7019FAFA887F} = {A1E3B81A-A3E4-405D-BB1C-7019FAFA887F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raid6_lib", "raid6_lib\raid6_lib.vcxproj", "{A1E3B81A-A3E4-405D-BB1C-7019FAFA887F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0B8EBF-C03B-4FD1-8C2B-3C591BB0A4DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF0B8EBF-C03B-4FD1-8C2B-3C591BB0A4DC}.Debug|Win32.Build.0 = Debug|Win32
+		{BF0B8EBF-C03B-4FD1-8C2B-3C591BB0A4DC}.Release|Win32.ActiveCfg = Release|Win32
+		{BF0B8EBF-C03B-4FD1-8C2B-3C591BB0A4DC}.Release|Win32.Build.0 = Release|Win32
+		{A1E3B81A-A3E4-405D-BB1C-7019FAFA887F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1E3B81A-A3E4-405D-BB1C-7019FAFA887F}.Debug|Win32.Build.0 = Debug|Win32
+		{A1E3B81A-A3E4-405D-BB1C-7019FAFA887F}.Release|Win32.ActiveCfg = Release|Win32
+		{A1E3B81A-A3E4-405D-BB1C-7019FAFA887F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
